@@ -1,0 +1,44 @@
+Fighting Style
+1
+Second Wind
+1
+Action Surge (x1)
+2
+Martial Archetype
+3
+Martial Versatility (Optional)
+4
+Extra Attack (x1)
+5
+Martial Versatility (Optional)
+6
+Martial Archetype feature
+7
+Martial Versatility (Optional)
+8
+Indomitable (x1)
+9
+Martial Archetype feature
+10
+Extra Attack (x2)
+11
+Martial Versatility (Optional)
+12
+Indomitable (x2)
+13
+Martial Versatility (Optional)
+14
+Martial Archetype Feature
+15
+Martial Versatility (Optional)
+16
+Action Surge (x2)
+17
+Indomitable (x3)
+17
+Martial Archetype Feature
+18
+Martial Versatility (Optional)
+19
+Extra Attack (x3)
+20

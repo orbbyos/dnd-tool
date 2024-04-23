@@ -1,0 +1,36 @@
+Druidic
+1
+Spellcasting
+1
+Wild Shape
+2
+Druid Circle
+2
+Wild Companion (Optional)
+2
+Wild Shape improvement
+4
+Cantrip Versatility (Optional)
+4
+Druid Circle feature
+6
+Wild Shape improvement
+8
+Cantrip Versatility (Optional)
+8
+Druid Circle feature
+10
+Cantrip Versatility (Optional)
+12
+Druid Circle feature
+14
+Cantrip Versatility (Optional)
+16
+Timeless Body
+18
+Beast Spells
+18
+Cantrip Versatility (Optional)
+19
+Archdruid
+20

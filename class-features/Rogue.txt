@@ -1,0 +1,34 @@
+Expertise
+1
+Sneak Attack
+1
+Thieves' Cant
+1
+Cunning Action
+2
+Roguish Archetype
+3
+Steady Aim (Optional)
+3
+Uncanny Dodge
+5
+Expertise
+6
+Evasion
+7
+Roguish Archetype feature
+9
+Reliable Talent
+11
+Roguish Archetype feature
+13
+Blindsense
+14
+Slippery Mind
+15
+Roguish Archetype feature
+17
+Elusive
+18
+Stroke of Luck
+20

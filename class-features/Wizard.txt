@@ -1,0 +1,18 @@
+Spellcasting
+1
+Arcane Recovery
+1
+Arcane Tradition
+2
+Cantrip Formulas (Optional)
+3
+Arcane Tradition feature
+6
+Arcane Tradition feature
+10
+Arcane Tradition feature
+14
+Spell Mastery
+18
+Signature Spells
+20

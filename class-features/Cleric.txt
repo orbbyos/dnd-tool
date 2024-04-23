@@ -1,0 +1,44 @@
+Spellcasting
+1
+Divine Domain
+1
+Channel Divinity (x1)
+2
+Divine Domain feature
+2
+Harness Divine Power (Optional)
+2
+Cantrip Versatility (Optional)
+4
+Destroy Undead (CR 1/2)
+5
+Channel Divinity (x2)
+6
+Divine Domain feature
+6
+Destroy Undead (CR 1)
+8
+Divine Domain feature
+8
+Cantrip Versatility (Optional)
+8
+Divine Intervention
+10
+Destroy Undead (CR 2)
+11
+Cantrip Versatility (Optional)
+12
+Destroy Undead (CR 3)
+14
+Cantrip Versatility (Optional)
+16
+Destroy Undead (CR 4)
+17
+Divine Domain feature
+17
+Channel Divinity (x3)
+18
+Cantrip Versatility (Optional)
+19
+Divine Intervention improvement
+20

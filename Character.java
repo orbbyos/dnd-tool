@@ -31,7 +31,7 @@ enum Skill {
 public class Character {
     // -- Cosmetics/character creation stuff, left out for now --
     // private String name;
-    // private Class characterClass; // syntax moment
+    private Class characterClass;
     // private String(?) race;
     // private String(?) background;
 
@@ -48,10 +48,20 @@ public class Character {
     private int[] savingThrowMods = new int[6];
     private boolean[] savingThrowProfs = new boolean[6]; // Parallel to Ability enum
 
-    // Spell variables -- Need implementation of classes
-    // private int spellSaveDC;
-    // private int spellAtkMod;
-    // private int spellSlotMaxima[] = new int[9]; // max spell slots per spell level, 1-9
+    // Variables inside Class class:
+    // hitDieType
+    // abilityScoreIncLevels
+    // cantripsKnownPerLevel
+    // spellAbility
+    // spellSlotsPerLevel
+    // spellsKnownPerLevel
+
+    // Local spell variables
+    private int spellSaveDC;
+    private int spellAtkMod;
+
+    
+    
 
 
     // setLevel - Sets level and calculates proficiency bonus
@@ -125,17 +135,34 @@ public class Character {
     }
 
     
+    // --- CLASS METHODS --- //
+    
+    // setClass - Sets class of character, taking a pre-defined Class object
+    public void setClass(Class characterClass) {
+        this.characterClass = characterClass;
+    }
+
+    // updateSpellModifiers - Applies values to spellSaveDC and spellAtkMod
+    public void updateSpellModifiers() {
+        int spellAbilityMod = abilityMods[characterClass.getSpellAbility().ordinal()];
+
+        spellSaveDC = 8 + proficiencyBonus + spellAbilityMod;    
+        spellAtkMod = spellAbilityMod + proficiencyBonus;
+    }
+
+
     // -------------------- //
 
     // Returns organized stats
     public String toString() {
-        String output = "\n";
+        String output = "";
 
-        output += "Level:\t\t" + level + '\n';
-        output += "Prof. Bonus:\t" + proficiencyBonus + '\n';
+        output += "\n-- Class Info --\nClass:\t\t" + characterClass.getName() + "\nLevel:\t\t" + level;
+        output += "\nProf. Bonus:\t" + proficiencyBonus + '\n';
+        output += "\nHit Die Type:\t" + characterClass.getHitDieType() + "\nHit Dice:\t" + level + '\n';
         
         // (should probably add getAbilityMod(x) / getSkillMod(x) / etc. methods to make this stuff readable)
-        output += "-- Ability Scores --\n";
+        output += "\n-- Ability Scores --\n";
         for(Ability a: Ability.values()) {
             output += abilityScores[a.ordinal()] + " (" + (abilityMods[a.ordinal()] >= 0? '+':"") + abilityMods[a.ordinal()] + ") - " + a.name() + '\n';
         }
@@ -148,6 +175,17 @@ public class Character {
         output += "\n-- Saving Throws --\n";
         for(Ability a: Ability.values()) {
             output += "[" + (savingThrowProfs[a.ordinal()]? 'X':' ') + "] " + savingThrowMods[a.ordinal()] + " - " + a.name() + '\n';
+        }
+
+        if(characterClass.isSpellcaster()) {
+            output += "\n-- Spell Info --\nSpellcasting Ability:\t" + characterClass.getSpellAbility().name();
+            output += "\nSpell Save DC:\t\t" + spellSaveDC;
+            output += "\nSpell ATK Bonus:\t" + spellAtkMod;
+            output += "\nSpell Slots: ";
+            for(int i = 0; i < 9; i++) {
+                output += characterClass.getSpellSlots(level, i+1) + " ";
+            }
+            output += '\n';
         }
 
         return output;

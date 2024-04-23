@@ -1,0 +1,30 @@
+Magical Tinkering
+1
+Spellcasting
+1
+Infuse Item
+2
+Artificer Specialist
+3
+The Right Tool for the Job
+3
+Artificer Specialist feature
+5
+Tool Expertise
+6
+Flash of Genius
+7
+Artificer Specialist feature
+9
+Magic Item Adept
+10
+Spell-Storing Item
+11
+Magic Item Savant
+14
+Artificer Specialist feature
+15
+Magic Item Master
+18
+Soul of Artifice
+20
