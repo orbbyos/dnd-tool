@@ -1,42 +1,21 @@
-Hunter's Bane
-1
-Blood Maledict
-1
-Fighting Style
-2
-Crimson Rite
-2
-Blood Hunter Order
-3
-Extra Attack
-5
-Brand of Castigation
-6
-Blood Maledict (2/rest)
-6
-Order Feature
-7
-Crimson Rite Improvement
-7
-Grim Psychometry
-9
-Dark Augmentation
-10
-Order Feature
-11
-Brand of Tethering
-13
-Blood Maledict (3/rest)
-13
-Hardened Soul
-14
-Crimson Rite Improvement
-14
-Order Feature
-15
-Blood Maledict (4/rest)
-17
-Order Feature
-18
-Sanguine Mastery
-20
+1_Hunter's Bane
+1_Blood Maledict
+2_Fighting Style
+2_Crimson Rite
+3_Blood Hunter Order
+5_Extra Attack
+6_Brand of Castigation
+6_Blood Maledict (2/rest)
+7_Order Feature
+7_Crimson Rite Improvement
+9_Grim Psychometry
+10_Dark Augmentation
+11_Order Feature
+13_Brand of Tethering
+13_Blood Maledict (3/rest)
+14_Hardened Soul
+14_Crimson Rite Improvement
+15_Order Feature
+17_Blood Maledict (4/rest)
+18_Order Feature
+20_Sanguine Mastery

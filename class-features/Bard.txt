@@ -1,54 +1,27 @@
-Spellcasting
-1
-Bardic Inspiration (d6)
-1
-Jack of All Trades
-2
-Song of Rest (d6)
-2
-Magical Inspiration (Optional)
-2
-Bard College
-3
-Expertise
-3
-Bardic Versatility (Optional)
-4
-Bardic Inspiration (d8)
-5
-Font of Inspiration
-5
-Countercharm
-6
-Bard College feature
-6
-Bardic Versatility (Optional)
-8
-Song of Rest (d8)
-9
-Bardic Inspiration (d10)
-10
-Expertise
-10
-Magical Secrets
-10
-Bardic Versatility (Optional)
-12
-Song of Rest (d10)
-13
-Magical Secrets
-14
-Bard College feature
-14
-Bardic Inspiration (d12)
-15
-Bardic Versatility (Optional)
-16
-Song of Rest (d12)
-17
-Magical Secrets
-18
-Bardic Versatility (Optional)
-19
-Superior Inspiration
-20
+1_Spellcasting
+1_Bardic Inspiration (d6)
+2_Jack of All Trades
+2_Song of Rest (d6)
+2_Magical Inspiration (Optional)
+3_Bard College
+3_Expertise
+4_Bardic Versatility (Optional)
+5_Bardic Inspiration (d8)
+5_Font of Inspiration
+6_Countercharm
+6_Bard College feature
+8_Bardic Versatility (Optional)
+9_Song of Rest (d8)
+10_Bardic Inspiration (d10)
+10_Expertise
+10_Magical Secrets
+12_Bardic Versatility (Optional)
+13_Song of Rest (d10)
+14_Magical Secrets
+14_Bard College feature
+15_Bardic Inspiration (d12)
+16_Bardic Versatility (Optional)
+17_Song of Rest (d12)
+18_Magical Secrets
+19_Bardic Versatility (Optional)
+20_Superior Inspiration

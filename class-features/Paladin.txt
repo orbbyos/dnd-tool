@@ -1,44 +1,22 @@
-Divine Sense
-1
-Lay on Hands
-1
-Fighting Style
-2
-Spellcasting
-2
-Divine Smite
-2
-Divine Health
-3
-Sacred Oath
-3
-Harness Divine Power (Optional)
-3
-Martial Versatility (Optional)
-4
-Extra Attack
-5
-Aura of Protection
-6
-Sacred Oath feature
-7
-Martial Versatility (Optional)
-8
-Aura of Courage
-10
-Improved Divine Smite
-11
-Martial Versatility (Optional)
-12
-Cleansing Touch
-14
-Sacred Oath feature
-15
-Martial Versatility (Optional)
-16
-Aura improvements
-18
-Martial Versatility (Optional)
-19
-Sacred Oath feature
-20
+1_Divine Sense
+1_Lay on Hands
+2_Fighting Style
+2_Spellcasting
+2_Divine Smite
+3_Divine Health
+3_Sacred Oath
+3_Harness Divine Power (Optional)
+4_Martial Versatility (Optional)
+5_Extra Attack
+6_Aura of Protection
+7_Sacred Oath feature
+8_Martial Versatility (Optional)
+10_Aura of Courage
+11_Improved Divine Smite
+12_Martial Versatility (Optional)
+14_Cleansing Touch
+15_Sacred Oath feature
+16_Martial Versatility (Optional)
+18_Aura improvements
+19_Martial Versatility (Optional)
+20_Sacred Oath feature

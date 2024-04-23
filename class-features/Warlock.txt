@@ -1,34 +1,17 @@
-Otherwordly Patron
-1
-Pact Magic
-1
-Eldritch Invocations
-2
-Pact Boon
-3
-Eldritch Versatility (Optional)
-4
-Otherworldly Patron feature
-6
-Eldritch Versatility (Optional)
-8
-Otherworldly Patron feature
-10
-Mystic Arcanum (6th level)
-11
-Eldritch Versatility (Optional)
-12
-Mystic Arcanum (7th level)
-13
-Otherwordly Patron feature
-14
-Mystic Arcanum (8th level)
-15
-Eldritch Versatility (Optional)
-16
-Mystic Arcanum (9th level)
-17
-Eldritch Versatility (Optional)
-19
-Eldritch Master
-20
+1_Otherwordly Patron
+1_Pact Magic
+2_Eldritch Invocations
+3_Pact Boon
+4_Eldritch Versatility (Optional)
+6_Otherworldly Patron feature
+8_Eldritch Versatility (Optional)
+10_Otherworldly Patron feature
+11_Mystic Arcanum (6th level)
+12_Eldritch Versatility (Optional)
+13_Mystic Arcanum (7th level)
+14_Otherwordly Patron feature
+15_Mystic Arcanum (8th level)
+16_Eldritch Versatility (Optional)
+17_Mystic Arcanum (9th level)
+19_Eldritch Versatility (Optional)
+20_Eldritch Master

@@ -1,42 +1,21 @@
-Rage
-1
-Unarmored Defense
-1
-Reckless Attack
-2
-Danger Sense
-2
-Primal Path
-3
-Primal Knowledge (Optional)
-3
-Extra Attack
-5
-Fast Movement
-5
-Path feature
-6
-Feral Instinct
-7
-Instinctive Pounce (Optional)
-7
-Brutal Critical (1 die)
-9
-Path feature
-10
-Primal Knowledge (Optional)
-10
-Relentless Rage
-11
-Brutal Critical (2 dice)
-13
-Path feature
-14
-Persistent Rage
-15
-Brutal Critical (3 dice)
-17
-Indomitable Might
-18
-Primal Champion
-20
+1_Rage
+1_Unarmored Defense
+2_Reckless Attack
+2_Danger Sense
+3_Primal Path
+3_Primal Knowledge (Optional)
+5_Extra Attack
+5_Fast Movement
+6_Path feature
+7_Feral Instinct
+7_Instinctive Pounce (Optional)
+9_Brutal Critical (1 die)
+10_Path feature
+10_Primal Knowledge (Optional)
+11_Relentless Rage
+13_Brutal Critical (2 dice)
+14_Path feature
+15_Persistent Rage
+17_Brutal Critical (3 dice)
+18_Indomitable Might
+20_Primal Champion

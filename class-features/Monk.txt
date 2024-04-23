@@ -1,52 +1,26 @@
-Unarmored Defense
-1
-Martial Arts
-1
-Ki
-2
-Unarmored Movement
-2
-Dedicated Weapon (Optional)
-2
-Monastic Tradition
-3
-Deflect Missiles
-3
-Ki-Fueled Attack (Optional)
-3
-Slow Fall
-4
-Quickened Healing (Optional)
-4
-Extra Attack
-5
-Stunning Strike
-5
-Focused Aim (Optional)
-5
-Ki-Empowered Strikes
-6
-Monastic Tradition Feature
-6
-Evasion
-7
-Stillness of Mind
-7
-Unarmored Movement improvement
-9
-Purity of Body
-10
-Monastic Tradition feature
-11
-Tongue of the Sun and Moon
-13
-Diamond Soul
-14
-Timeless Body
-15
-Monastic Tradition feature
-17
-Empty Body
-18
-Perfect Self
-20
+1_Unarmored Defense
+1_Martial Arts
+2_Ki
+2_Unarmored Movement
+2_Dedicated Weapon (Optional)
+3_Monastic Tradition
+3_Deflect Missiles
+3_Ki-Fueled Attack (Optional)
+4_Slow Fall
+4_Quickened Healing (Optional)
+5_Extra Attack
+5_Stunning Strike
+5_Focused Aim (Optional)
+6_Ki-Empowered Strikes
+6_Monastic Tradition Feature
+7_Evasion
+7_Stillness of Mind
+9_Unarmored Movement improvement
+10_Purity of Body
+11_Monastic Tradition feature
+13_Tongue of the Sun and Moon
+14_Diamond Soul
+15_Timeless Body
+17_Monastic Tradition feature
+18_Empty Body
+20_Perfect Self

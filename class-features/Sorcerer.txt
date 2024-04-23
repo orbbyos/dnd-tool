@@ -1,32 +1,16 @@
-Spellcasting
-1
-Sorcerous Origin
-1
-Font of Magic
-2
-Metamagic
-3
-Sorcerous Versatility (Optional)
-4
-Magical Guidance (Optional)
-5
-Sorcerous Origin feature
-6
-Sorcerous Versatility (Optional)
-8
-Metamagic
-10
-Sorcerous Versatility (Optional)
-12
-Sorcerous Origin feature
-14
-Sorcerous Versatility (Optional)
-16
-Metamagic
-17
-Sorcerous Origin feature
-18
-Sorcerous Versatility (Optional)
-19
-Sorcerous Restoration
-20
+1_Spellcasting
+1_Sorcerous Origin
+2_Font of Magic
+3_Metamagic
+4_Sorcerous Versatility (Optional)
+5_Magical Guidance (Optional)
+6_Sorcerous Origin feature
+8_Sorcerous Versatility (Optional)
+10_Metamagic
+12_Sorcerous Versatility (Optional)
+14_Sorcerous Origin feature
+16_Sorcerous Versatility (Optional)
+17_Metamagic
+18_Sorcerous Origin feature
+19_Sorcerous Versatility (Optional)
+20_Sorcerous Restoration

@@ -5,16 +5,16 @@ import java.io.File;
 import java.io.FileNotFoundException;
 
 public class Class {
-    String className;
+    private String className;
 
-    ArrayList<ClassFeature> classFeatures = new ArrayList<ClassFeature>();
-    int hitDieType;
-    int[] abilityScoreIncLevels;
+    private ArrayList<ClassFeature> classFeatures = new ArrayList<ClassFeature>();
+    private int hitDieType;
+    private int[] abilityScoreIncLevels;
     
-    int[] cantripsKnownPerLevel;
+    private int[] cantripsKnownPerLevel;
 
-    Ability spellAbility;
-    int[][] spellSlotsPerLevel;
+    private Ability spellAbility;
+    private int[][] spellSlotsPerLevel;
 
     // Constructor - className must match the name of a DnD class, first letter capitalized (ex. "Paladin", "Cleric", etc.)
     // Assigns values to hit die type, ability score levels, cantrips per level, spellcasting ability, spell slots per level, and class features
@@ -191,24 +191,24 @@ public class Class {
         return className;
     }
 
-    public boolean isSpellcaster() {
-        return spellAbility != null;
-    }
-
-    public int getSpellSlots(int atLevel, int spellLevel) {
-        return spellSlotsPerLevel[atLevel-1][spellLevel-1];
-    }
-
-    public Ability getSpellAbility() {
-        return (isSpellcaster()? spellAbility:null);
-    }
-
     public int getHitDieType() {
         return hitDieType;
     }
 
     public int[] getAbilityScoreIncLevels() {
         return abilityScoreIncLevels;
+    }
+
+    public boolean isSpellcaster() {
+        return spellAbility != null;
+    }
+
+    public Ability getSpellAbility() {
+        return (isSpellcaster()? spellAbility:null);
+    }
+
+    public int getSpellSlots(int atLevel, int spellLevel) {
+        return spellSlotsPerLevel[atLevel-1][spellLevel-1];
     }
 
     public int getCantripsKnown(int atLevel) {
@@ -220,29 +220,19 @@ public class Class {
         File classFile = new File("class-features/" + className + ".txt");
         Scanner scanner = new Scanner(classFile);
 
-        String featureName = "Name";
-        int level = 0;
-        int lineIndex = 1;
         while(scanner.hasNextLine()) {
-            String line = scanner.nextLine();
-            if(lineIndex % 2 != 0 ) {
-                featureName = line;
-            }
-            else {
-                level = Integer.parseInt(line);
-                arr.add(new ClassFeature(featureName, level));
-            }
-            lineIndex++;
+            String[] ft = scanner.nextLine().split("_");
+            arr.add(new ClassFeature(ft[1], Integer.parseInt(ft[0])));
         }
 
         scanner.close();
     }
 
-    // printClassFeatures - Prints each feature and their level, using playerLevel to mark which ones have been obtained.
+    // printClassFeatures - Prints each feature and their level, using playerLevel to mark which ones have been obtained
     public void printClassFeatures(int playerLevel) {
         System.out.println("-- Class Features --");
         for(ClassFeature f: classFeatures) {
-            System.out.println("[" + (playerLevel >= f.getLevel()? 'X':' ') + "] Level " + f.getLevel() + " - " + f.getTitle());
+            System.out.println("[" + (playerLevel >= f.getLevel()? 'X':' ') + "] " + f);
         }
     }
     

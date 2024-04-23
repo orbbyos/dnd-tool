@@ -1,62 +1,31 @@
-Favored Enemy
-1
-Natural Explorer
-1
-Deft Explorer (Optional)
-1
-Favored Foe (Optional)
-1
-Fighting Style
-2
-Spellcasting
-2
-Spellcasting Focus (Optional)
-2
-Primeval Awareness
-3
-Ranger Conclave
-3
-Primal Awareness (Optional)
-3
-Martial Versatility (Optional)
-4
-Extra Attack
-5
-Favored Enemy Improvement
-6
-Natural Explorer Improvement
-6
-Deft Explorer Improvement (Optional)
-6
-Ranger Conclave feature
-7
-Land's Stride
-8
-Martial Versatility (Optional)
-8
-Natural Explorer Improvement
-10
-Hide in Plain Sight
-10
-Deft Explorer Feature (Optional)
-10
-Nature's Veil (Optional)
-10
-Ranger Conclave feature
-11
-Martial Versatility (Optional)
-12
-Favored Enemy Improvement
-14
-Vanish
-14
-Ranger Conclave feature
-15
-Martial Versatility (Optional)
-16
-Feral Senses
-18
-Martial Versatility (Optional)
-19
-Foe Slayer
-20
+1_Favored Enemy
+1_Natural Explorer
+1_Deft Explorer (Optional)
+1_Favored Foe (Optional)
+2_Fighting Style
+2_Spellcasting
+2_Spellcasting Focus (Optional)
+3_Primeval Awareness
+3_Ranger Conclave
+3_Primal Awareness (Optional)
+4_Martial Versatility (Optional)
+5_Extra Attack
+6_Favored Enemy Improvement
+6_Natural Explorer Improvement
+6_Deft Explorer Improvement (Optional)
+7_Ranger Conclave feature
+8_Land's Stride
+8_Martial Versatility (Optional)
+10_Natural Explorer Improvement
+10_Hide in Plain Sight
+10_Deft Explorer Feature (Optional)
+10_Nature's Veil (Optional)
+11_Ranger Conclave feature
+12_Martial Versatility (Optional)
+14_Favored Enemy Improvement
+14_Vanish
+15_Ranger Conclave feature
+16_Martial Versatility (Optional)
+18_Feral Senses
+19_Martial Versatility (Optional)
+20_Foe Slayer

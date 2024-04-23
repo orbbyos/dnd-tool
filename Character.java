@@ -60,9 +60,6 @@ public class Character {
     private int spellSaveDC;
     private int spellAtkMod;
 
-    
-    
-
 
     // setLevel - Sets level and calculates proficiency bonus
     public void setLevel(int level) {
@@ -159,7 +156,7 @@ public class Character {
 
         output += "\n-- Class Info --\nClass:\t\t" + characterClass.getName() + "\nLevel:\t\t" + level;
         output += "\nProf. Bonus:\t" + proficiencyBonus + '\n';
-        output += "\nHit Die Type:\t" + characterClass.getHitDieType() + "\nHit Dice:\t" + level + '\n';
+        output += "\nHit Die Type:\t" + characterClass.getHitDieType() + "\nTotal Hit Dice:\t" + level + '\n';
         
         // (should probably add getAbilityMod(x) / getSkillMod(x) / etc. methods to make this stuff readable)
         output += "\n-- Ability Scores --\n";

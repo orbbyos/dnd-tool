@@ -1,36 +1,18 @@
-Druidic
-1
-Spellcasting
-1
-Wild Shape
-2
-Druid Circle
-2
-Wild Companion (Optional)
-2
-Wild Shape improvement
-4
-Cantrip Versatility (Optional)
-4
-Druid Circle feature
-6
-Wild Shape improvement
-8
-Cantrip Versatility (Optional)
-8
-Druid Circle feature
-10
-Cantrip Versatility (Optional)
-12
-Druid Circle feature
-14
-Cantrip Versatility (Optional)
-16
-Timeless Body
-18
-Beast Spells
-18
-Cantrip Versatility (Optional)
-19
-Archdruid
-20
+1_Druidic
+1_Spellcasting
+2_Wild Shape
+2_Druid Circle
+2_Wild Companion (Optional)
+4_Wild Shape improvement
+4_Cantrip Versatility (Optional)
+6_Druid Circle feature
+8_Wild Shape improvement
+8_Cantrip Versatility (Optional)
+10_Druid Circle feature
+12_Cantrip Versatility (Optional)
+14_Druid Circle feature
+16_Cantrip Versatility (Optional)
+18_Timeless Body
+18_Beast Spells
+19_Cantrip Versatility (Optional)
+20_Archdruid
