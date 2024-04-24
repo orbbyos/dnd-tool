@@ -66,22 +66,16 @@ public class Class {
                 cantripsKnownPerLevel = new int[]{2,2,2,2,2,2,2,2,2,3,3,3,3,4,4,4,4,4,4,4};
                 break;
             case "Bard":
-                cantripsKnownPerLevel = new int[]{2,2,2,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4};
-                break;
-            case "Cleric":
-                cantripsKnownPerLevel = new int[]{3,3,3,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5};
-                break;
             case "Druid":
-                cantripsKnownPerLevel = new int[]{2,2,2,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4};
-                break;
-            case "Sorcerer":
-                cantripsKnownPerLevel = new int[]{4,4,4,5,5,5,5,5,5,6,6,6,6,6,6,6,6,6,6,6};
-                break;
             case "Warlock":
                 cantripsKnownPerLevel = new int[]{2,2,2,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4};
                 break;
+            case "Cleric":
             case "Wizard":
                 cantripsKnownPerLevel = new int[]{3,3,3,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5};
+                break;
+            case "Sorcerer":
+                cantripsKnownPerLevel = new int[]{4,4,4,5,5,5,5,5,5,6,6,6,6,6,6,6,6,6,6,6};
                 break;
             default:
                 cantripsKnownPerLevel = new int[20];
